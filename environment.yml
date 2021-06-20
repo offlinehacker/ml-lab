@@ -1,0 +1,16 @@
+name: ml-lab
+channels:
+  - pytorch
+dependencies:
+  #- python=3.8
+  - jupyter
+  - ipython
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - seaborn
+  - faiss-cpu
+  - pip:
+    - kaggle
